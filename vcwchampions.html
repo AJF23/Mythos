@@ -1,0 +1,113 @@
+<!-- champions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCW - Champions</title>
+    <style>
+       /* Your CSS styles for this specific page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFA500; /* Orange */
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black; /* Secondary: Black */
+    padding: 5px;
+}
+
+nav {
+    background-color: black; /* Secondary: Black */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.wrestler-image {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.champion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.champion img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black; /* Secondary: Black */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>VCW</h1>
+    </header>
+
+    <nav>
+        <a href="vcw.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="watchnow.html">Watch Now</a>
+        <a href="champions.html">Champions</a>
+    </nav>
+
+    <main>
+        <div class="champion">
+            <img class="wrestler-image" src="bmw.png" alt="Wrestler Image 1">
+            <img src="valhallaworld.png" alt="Valhalla World Champion Belt">
+            <p>Valhalla World Champion - Bryce Matthew Walters</p>
+        </div>
+
+        <div class="champion">
+            <img class="wrestler-image" src="ali.png" alt="Wrestler Image 2">
+            <img src="nordic.png" alt="Nordic Champion Belt">
+            <p>Nordic Champion - Alistair Howard</p>
+        </div>
+
+        <div class="champion">
+            <img class="wrestler-image" src="winry.png" alt="Wrestler Image 3">
+            <img src="valkyrie.png" alt="Valkyrie Champion Belt">
+            <p>Valkyrie Champion - Winry Rosado</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 VCW. All Rights Reserved.
+    </footer>
+</body>
+
+</html>

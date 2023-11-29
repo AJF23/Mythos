@@ -1,0 +1,112 @@
+<!-- champions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPW - Champions</title>
+    <style>
+        /* Your CSS styles for this specific page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4B0082; /* Dark Purple */
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #800080; /* Darker Purple */
+            padding: 5px;
+        }
+
+        nav {
+            background-color: #800080; /* Darker Purple */
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .wrestler-image {
+            max-width: 300px;
+            max-height: 300px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .champion {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .champion img {
+            max-width: 200px;
+            max-height: 200px;
+            margin-right: 20px;
+        }
+
+        footer {
+            background-color: #800080; /* Darker Purple */
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>XPW</h1>
+    </header>
+
+    <nav>
+        <a href="xpw.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="watchnow.html">Watch Now</a>
+        <a href="champions.html">Champions</a>
+    </nav>
+
+    <main>
+        <div class="champion">
+            <img class="wrestler-image" src="bmw.png" alt="Wrestler Image 1">
+            <img src="xcel.png" alt="Xcel World Heavyweight Champion Belt">
+            <p>Xcel World Heavyweight Champion - Bryce Matthew Walters</p>
+        </div>
+
+        <div class="champion">
+            <img class="wrestler-image" src="lucas.png" alt="Wrestler Image 2">
+            <img src="xcel.png" alt="Xcelerate Champion Belt">
+            <p>Xcelerate Champion - "The Adonis" Lucas Godfrey</p>
+        </div>
+
+        <div class="champion">
+            <img class="wrestler-image" src="hel.png" alt="Wrestler Image 3">
+            <img src="women.png" alt="Xcel Women's Champion Belt">
+            <p>Xcel Women's Champion - Hel</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 XPW. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
